@@ -1,7 +1,7 @@
 import { AuthProvider } from "@arcana/auth";
 import { myerc20abi } from "./myerc20.js";
 
-const clientId = "xar_dev_1ce3de98ebac47e4196a1380b61422dcf63a9c7b";
+const clientId = "xar_dev_c2fb7be163754e57d384e24257ea2c8d2a5dd31a";
 
 //Arcana Auth SDK integration
 
@@ -10,7 +10,7 @@ const auth = new AuthProvider(clientId, {
   network: 'dev',
   position: 'right',
   chainConfig: {
-    chainId: '80001', //polygon mumbai
+    chainId: '80002', //polygon amoy
   }
 });
 
